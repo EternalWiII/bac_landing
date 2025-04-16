@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" itemscope itemtype="https://schema.org/WebPage">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,14 +33,19 @@
     <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/web-app-manifest-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="img/favicon/web-app-manifest-512x512.png">
 
-
-  <style>
-    @media (max-width: 768px) {
-      nav ul {
-        flex-direction: column;
-      }
-    }
-  </style>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Інформаційна система хмарного сховища",
+          "url": "https://yourwebsite.com",
+          "author": {
+            "@type": "Person",
+            "name": "Майстренко Дмитрій Олегович"
+          },
+          "description": "Лендінг для бакалаврського проєкту - Інформаційна система хмарного сховища"
+        }
+    </script>
 </head>
 <body>
     <header role="banner">
@@ -56,11 +61,7 @@
     <main role="main" itemprop="mainContentOfPage">
       <section id="about" aria-labelledby="about-title">
         <h2 id="about-title">Про проєкт</h2>
-        <p itemprop="description">Це сторінка лендінгу для бакалаврського проєкту, присвяченого розробці інформаційної системи для хмарного зберігання даних. Проєкт має на меті створити зручний і надійний сервіс зберігання даних для користувачів університету.</p>
-        <figure>
-          <img src="img/project-preview.png" alt="Ілюстрація до інформаційної системи хмарного сховища" itemprop="image">
-          <figcaption>Інтерфейс системи хмарного сховища</figcaption>
-        </figure>
+        <p itemprop="description">Це сторінка лендінгу для бакалаврського проєкту, присвяченого розробці інформаційної системи для хмарного зберігання даних</p>
       </section>
     </main>
   
