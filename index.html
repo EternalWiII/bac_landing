@@ -43,19 +43,28 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Інформаційна система хмарного сховища</h1>
-  </header>
-
-  <main>
-    <section id="about">
-      <h2>Про проєкт</h2>
-      <p>.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Майстренко Дмитрій Олегович</p>
-  </footer>
-</body>
+    <header role="banner">
+      <h1 itemprop="name">Інформаційна система хмарного сховища</h1>
+      <nav role="navigation" aria-label="Головна навігація">
+        <ul>
+          <li><a href="#about">Про проєкт</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <main role="main" itemprop="mainContentOfPage">
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">Про проєкт</h2>
+        <p itemprop="description">Це сторінка лендінгу для бакалаврського проєкту, присвяченого розробці інформаційної системи для хмарного зберігання даних. Проєкт має на меті створити зручний і надійний сервіс зберігання даних для користувачів університету.</p>
+        <figure>
+          <img src="img/project-preview.png" alt="Ілюстрація до інформаційної системи хмарного сховища" itemprop="image">
+          <figcaption>Інтерфейс системи хмарного сховища</figcaption>
+        </figure>
+      </section>
+    </main>
+  
+    <footer role="contentinfo">
+      <p>&copy; 2025 <span itemprop="author">Майстренко Дмитрій Олегович</span></p>
+    </footer>
+  </body>
 </html>
