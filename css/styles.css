@@ -1,0 +1,80 @@
+/* styles.css */
+
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f5f7fa;
+    --text-color: #333;
+    --footer-bg: #2c3e50;
+    --footer-text: #ecf0f1;
+    --accent-color: #0077cc;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    background: var(--primary-color);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  section h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    margin-top: 60px;
+    background: var(--footer-bg);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    section p {
+      font-size: 1rem;
+    }
+  
+    main {
+      margin: 20px 10px;
+      padding: 15px;
+    }
+  }
+  
