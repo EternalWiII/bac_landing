@@ -50,25 +50,110 @@
     </script>
 </head>
 <body>
-    <header role="banner">
+  <header role="banner">
     <img src="img/favicon/favicon.ico" alt="My Website Logo" width="32" height="32">
-      <h1 itemprop="name">Інформаційна система хмарного сховища</h1>
-      <nav role="navigation" aria-label="Головна навігація">
-        <ul>
-          <li><a href="#about">Про проєкт</a></li>
-        </ul>
-      </nav>
-    </header>
-  
-    <main role="main" itemprop="mainContentOfPage">
-      <section id="about" aria-labelledby="about-title">
-        <h2 id="about-title">Про проєкт</h2>
-        <p itemprop="description">Це сторінка лендінгу для бакалаврського проєкту, присвяченого розробці інформаційної системи для хмарного зберігання даних</p>
-      </section>
-    </main>
-  
-    <footer role="contentinfo">
-      <p>&copy; 2025 <span itemprop="author">Майстренко Дмитрій Олегович</span></p>
-    </footer>
-  </body>
+    <h1 itemprop="name">Інформаційна система хмарного сховища</h1>
+    <nav role="navigation" aria-label="Головна навігація">
+      <ul>
+        <li><a href="#about">Про проєкт</a></li>
+        <li><a href="#relevance">Актуальність</a></li>
+        <li><a href="#goal">Мета і завдання</a></li>
+        <li><a href="#methodology">Методологія</a></li>
+        <li><a href="#results">Очікувані результати</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main" itemprop="mainContentOfPage">
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">Про проєкт</h2>
+      <p itemprop="description">
+        Розробка інформаційної системи для зберігання та керування файлами в хмарному середовищі. Бекенд реалізовано на мові Java із використанням сучасних фреймворків та технологій. 
+        Проєкт дозволяє забезпечити безпечний та зручний доступ до даних через API.
+      </p>
+    </section>
+
+    <section id="title-keywords" aria-labelledby="title-keywords-title">
+      <h2 id="title-keywords-title">Назва та ключові слова</h2>
+    
+      <h3>Назва українською</h3>
+      <p>Інформаційна система хмарного сховища</p>
+    
+      <h3>Title in English</h3>
+      <p>Cloud Storage Information System</p>
+    
+      <h3>Ключові слова</h3>
+      <ul>
+        <li>хмарне сховище</li>
+        <li>інформаційна система</li>
+        <li>бекенд</li>
+        <li>Java</li>
+        <li>REST API</li>
+        <li>авторизація</li>
+        <li>керування файлами</li>
+      </ul>
+    </section>
+
+    <section id="relevance" aria-labelledby="relevance-title">
+      <h2 id="relevance-title">Актуальність теми</h2>
+      <p>
+        У сучасному цифровому світі зростає потреба у надійному та доступному з будь-якого місця зберіганні даних. 
+        Хмарні сховища стають стандартом для бізнесу, освіти та особистого використання. 
+        Розробка власного рішення дозволяє краще контролювати дані, забезпечувати безпеку та гнучкість у роботі з файлами.
+      </p>
+    </section>
+
+    <section id="goal" aria-labelledby="goal-title">
+      <h2 id="goal-title">Мета та завдання</h2>
+      <p><strong>Мета:</strong> Розробити інформаційну систему хмарного сховища з веб-інтерфейсом та REST API, яка дозволяє зберігати, переглядати, завантажувати та видаляти файли користувачів.</p>
+      <ul>
+        <li>Проаналізувати аналоги та технологічні вимоги до хмарного сховища</li>
+        <li>Розробити архітектуру системи (бекенд, API, базу даних, безпеку)</li>
+        <li>Реалізувати REST API для взаємодії з клієнтською частиною</li>
+        <li>Застосувати механізми автентифікації та авторизації користувачів</li>
+        <li>Протестувати систему на працездатність та навантаження</li>
+      </ul>
+    </section>
+
+    <section id="methodology" aria-labelledby="methodology-title">
+      <h2 id="methodology-title">Методологія дослідження</h2>
+      <p>
+        У розробці використовувалися Java 17, Spring Boot для реалізації логіки сервера; Spring Security для безпечної автентифікації користувачів; PostgreSQL для зберігання метаданих файлів та користувачів;
+        Архітектура системи побудована за принципами REST.
+      </p>
+    </section>
+
+    <section id="results" aria-labelledby="results-title">
+      <h2 id="results-title">Очікувані результати</h2>
+      <ul>
+        <li>Повнофункціональний REST API для роботи з файлами</li>
+        <li>Безпечна авторизація та автентифікація (JWT)</li>
+        <li>Підтримка ролей користувачів (адміністратор / звичайний користувач)</li>
+        <li>Масштабована архітектура для подальшого розширення</li>
+        <li>Демонстраційний клієнт або документація для підключення фронтенду</li>
+      </ul>
+    </section>
+
+    <section id="illustration" aria-labelledby="illustration-title">
+      <h2 id="illustration-title">Ілюстрація</h2>
+      <figure>
+        <img src="img/images.webp" alt="Скріншот інтерфейсу хмарної системи" loading="lazy" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+      </figure>
+    </section>
+
+    <section id="contacts" aria-labelledby="contacts-title">
+      <h2 id="contacts-title">Контакти та посилання</h2>
+      <p><strong>Автор:</strong> Майстренко Дмитрій Олегович</p>
+      <p><strong>Керівник:</strong> Колесніков Валерій Анатолійович</p>
+      <p><strong>Email:</strong> dmytrii.maistrenko@student.sumdu.edu.ua</p>
+      <p><a href="#">Переглянути повний текст роботи</a></p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 <span itemprop="author">Майстренко Дмитрій Олегович</span></p>
+  </footer>
+</body>
+
 </html>
