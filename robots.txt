@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # change later
-Sitemap: /sitemap.xml 
+Sitemap: https://eternalwiii.github.io/bac_landing/sitemap.xml
