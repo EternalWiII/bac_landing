@@ -47,11 +47,16 @@ main {
 section h2 {
   color: var(--primary-color);
   margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 section p {
   font-size: 1.1rem;
   margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 section ul {
@@ -63,6 +68,8 @@ section ul {
 section li {
   margin-bottom: 8px;
   font-size: 1.05rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 footer {
